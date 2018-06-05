@@ -1,0 +1,137 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Kanit', sans-serif;
+}
+
+p {
+    font-size: 12px;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid lightgray;
+    padding: 0; 
+}
+
+ul {
+    vertical-align: middle;
+    height: 100%;
+    list-style-type: none;
+    display: inline-block
+}
+
+li {
+    float: left;
+    margin: 0px 10px 0px 10px;
+}
+/* 
+h1 {
+    display: inline-block;
+}
+*/
+h2 {
+    font-size: 6mm;
+    margin: 0;
+    width: 100%;
+}
+
+img {
+    background-color: gray;
+}
+
+#highlight-div {
+    float: right;
+}
+
+#highlight-topic {
+    width: 60%;
+    font-size: 8mm;
+    padding-right: 10px;
+    border-right: 1px solid lightgray;
+}
+
+#highlight-date {
+    align-content: center;
+    font-style: italic;
+    font-size: 4mm;
+    text-align: center;
+    width: 35%;
+    color: gray;
+}
+
+#center-left-div {
+    display: inline-block;
+    width: 75%;
+}
+
+#header-div {
+    padding: 5px;
+}
+
+#header-img {
+    width: 30%;
+    height: 100px;
+    vertical-align: middle;
+}
+
+#center-left-img {
+    width: 100%;
+    height: 550px;
+}
+
+#center-right-img {
+    width: 20%;
+    height: 250px;
+    margin-left: 20px;
+    vertical-align: top;
+}
+
+#content-list {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+    background-color: #e5e5e5;
+}
+
+.content-div {
+    padding: 30px;
+}
+/*
+.vertical-separator {
+    border-left:1px solid lightgray;
+    height: 50px;
+    vertical-align: middle;
+    display: inline-block;
+}
+*/
+.list-img {
+    width: 100%;
+    height: 250px;
+}
+
+.date {
+    color: gray;
+    float: right;
+    font-style: italic;
+    font-size: 4mm;
+    padding: 15px 55px 15px 0;
+}
+
+.menu-list {
+    margin: 0 25px 0 25px; 
+    font-size: 5mm;
+    color: gray;
+}
+
+.list-item {
+    width: 23%;
+}
